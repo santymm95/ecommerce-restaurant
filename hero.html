@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Rerservas</title>
+</head>
+
+<body>
+
+    <h1>RESERVAS</h1>
+
+
+    <section class="contenedor">
+
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items">
+
+            <div class="item">
+                <span class="titulo-item">MESA #01</span>
+                <img src="./img/images/mesa.png" alt="" class="img-item">
+                <button id="ocupar" onclick="ocuparMesa01()" class="boton-item">OCUPAR</button>
+                <button id="pedido" class="boton-item"><a href="./mesa01.html" target="_blank"
+                        rel="noopener noreferrer">PEDIDO</a></button>
+                <button id="desocupar" onclick="desocuparMesa01()" class="boton-item">DESOCUPAR</button>
+            </div>
+
+            <div class="item">
+                <span class="titulo-item">MESA #02</span>
+                <img id="img02"src="./img/images/mesa.png" alt="" class="img-item">
+                <button id="ocupar" onclick="ocuparMesa02()" class="boton-item">OCUPAR</button>
+                <button id="pedido" class="boton-item"><a href="./mesa02.html" target="_blank"
+                        rel="noopener noreferrer">PEDIDO</a></button>
+                <button id="desocupar" onclick="desocuparMesa02()" class="boton-item">DESOCUPAR</button>
+            </div>
+
+            <div class="item">
+                <span class="titulo-item">MESA #03</span>
+                <img id="img03"src="./img/images/mesa.png" alt="" class="img-item">
+                <button id="ocupar" onclick="ocuparMesa03()" class="boton-item">OCUPAR</button>
+                <button id="pedido" class="boton-item"><a href="./mesa03.html" target="_blank"
+                        rel="noopener noreferrer">PEDIDO</a></button>
+                <button id="desocupar" onclick="desocuparMesa03()" class="boton-item">DESOCUPAR</button>
+            </div>
+
+
+
+            <div class="item">
+                <span class="titulo-item">MESA #04</span>
+                <img id="img04"src="./img/images/mesa.png" alt="" class="img-item">
+                <button id="ocupar" onclick="ocuparMesa04()" class="boton-item">OCUPAR</button>
+                <button id="pedido" class="boton-item"><a href="./mesa04.html" target="_blank"
+                        rel="noopener noreferrer">PEDIDO</a></button>
+                <button id="desocupar" onclick="desocuparMesa04()" class="boton-item">DESOCUPAR</button>
+            </div>
+
+            <div class="item">
+                <span class="titulo-item">MESA #05</span>
+                <img id="img05" src="./img/images/mesa.png" alt="" class="img-item">
+                <button id="ocupar" onclick="ocuparMesa05()" class="boton-item">OCUPAR</button>
+                <button id="pedido" class="boton-item"><a href="./mesa05.html" target="_blank"
+                        rel="noopener noreferrer">PEDIDO</a></button>
+                <button id="desocupar" onclick="desocuparMesa05()" class="boton-item">DESOCUPAR</button>
+            </div>
+
+            <div class="item">
+                <span class="titulo-item">MESA #06</span>
+                <img id="img06" src="./img/images/mesa.png" alt="" class="img-item">
+                <button id="ocupar" onclick="ocuparMesa06()" class="boton-item">OCUPAR</button>
+                <button id="pedido" class="boton-item"><a href="./mesa06.html" target="_blank"
+                        rel="noopener noreferrer">PEDIDO</a></button>
+                <button id="desocupar" onclick="desocuparMesa06()" class="boton-item">DESOCUPAR</button>
+            </div>
+
+            <div class="item">
+                <span class="titulo-item">MESA #07</span>
+                <img id="img07" src="./img/images/mesa.png" alt="" class="img-item">
+                <button id="ocupar" onclick="ocuparMesa07()" class="boton-item">OCUPAR</button>
+                <button id="pedido" class="boton-item"><a href="./mesa07.html" target="_blank"
+                        rel="noopener noreferrer">PEDIDO</a></button>
+                <button id="desocupar" onclick="desocuparMesa07()" class="boton-item">DESOCUPAR</button>
+            </div>
+
+            <div class="item">
+                <span class="titulo-item">MESA #08</span>
+                <img id="img08" src="./img/images/mesa.png" alt="" class="img-item">
+                <button id="ocupar" onclick="ocuparMesa08()" class="boton-item">OCUPAR</button>
+                <button id="pedido" class="boton-item"><a href="./mesa08.html" target="_blank"
+                        rel="noopener noreferrer">PEDIDO</a></button>
+                <button id="desocupar" onclick="desocuparMesa08()" class="boton-item">DESOCUPAR</button>
+            </div>
+
+
+
+        </div>
+        <!-- Carrito de Compras -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+
+            <div class="carrito-items">
+
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+                        $120.000,00
+                    </span>
+                </div>
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="./Javascript/app.js" async></script>
+    <script src="./Javascript/changer.js"></script>
+    <script src="./Javascript/main.js"></script>
+
+</body>
+
+</html>

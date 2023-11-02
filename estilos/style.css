@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../img/images/fondo.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.container {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 10px 15px black;
+  border-radius: 20px;
+
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  height: 450px;
+  max-width: 400px;
+  width: 100%;
+
+}
+
+
+strong {
+  padding: 10px;
+  font-size: 12px;
+  color: red;
+}
+
+button {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  border: 1px solid white;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: 800;
+  margin: 20px 0px;
+  width: 120px;
+
+}
+
+.form-container h2 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 5px 5px black;
+  font-size: 30px;
+
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"] {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-shadow: 5px 5px 5px black;
+  font-weight: 800;
+  border: none;
+  border-radius: 5px;
+  background: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+}
+
+.form-container input[type="submit"] {
+  width: 100%;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#boton:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: 0.5s ease-in;
+  -webkit-transition: 0.5s ease-in;
+  -moz-transition: 0.5s ease-in;
+  -ms-transition: 0.5s ease-in;
+  -o-transition: 0.5s ease-in;
+}
+
+input:focus {
+
+  outline: none;
+  background: none;
+  color: white;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+input::placeholder {
+  color: white;
+  font-size: 15px;
+}
+
+.image-container {
+  text-align: center;
+
+  margin-top: 20px;
+
+}
+
+
+span {
+  width: 2px;
+  height: 400px;
+  background-color: #ffffff;
+
+
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+
+
+}
+
+
+.tab {
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 180px;
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 0px 20px 20px 0px;
+  left: -120px;
+
+}
+
+.tab p {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    padding: 40px;
+
+  }
+
+  span {
+    display: none;
+  }
+
+  .form-container,
+  .image-container {
+    margin: 10px 0;
+  }
+}
+
+
+
+@media (max-width: 1200px) {
+  .tab {
+    display: none;
+  }
+}
